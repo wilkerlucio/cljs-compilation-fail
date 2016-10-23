@@ -17,10 +17,7 @@
               [{:id           "site"
                 :source-paths ["src"]
                 :compiler     {:main                 cljs-compile-bug.core
-                               :source-map-timestamp true
                                :asset-path           "/site"
                                :output-to            "resources/public/site/site.js"
                                :output-dir           "resources/public/site"
-                               :parallel-build       true
-                               :recompile-dependents true
-                               :verbose              false}}]})
+                               :verbose              true}}]})
